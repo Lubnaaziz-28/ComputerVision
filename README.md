@@ -138,7 +138,7 @@ Training experimentation and progress are logged in history/notes.txt file. Belo
 
 The training took about three days on a Nvidia RTX 2060 GPU.
 
-## Train SSD specific weights
+## Train MREFP-Net specific weights
 run python ./train_model.py  with below setting
 ```
 self.max_number_of_steps = 30000
@@ -187,6 +187,14 @@ step = 10000
 min_step = 30000
 step = 10000
 ```
+# Paper Reference 
+(Aziz et al., 2021)
+
+Aziz, L., Salam, M. S. B. H., Sheikh, U. U., Khan, S., Ayub, H., and Ayub, S. (2021). Multi-Level Refinement Feature Pyramid Network for Scale Imbalance Object Detection. IEEE Access, 9, 156492-156506. 
+
+(Aziz et al., 2021)
+
+Aziz, L., FC, M. S. B. H. S., and Ayub, S. (2021). Multi-level refinement enriched feature pyramid network for object detection. Image and Vision Computing, 115, 104287. 
 
 
 
